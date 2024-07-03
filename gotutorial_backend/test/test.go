@@ -11,5 +11,7 @@ func MyFunction(step int) {
 		fmt.Println("step3")
 	} else if step == 4 {
 		fmt.Println("step4")
+	} else {
+		fmt.Println("step not supported")
 	}
 }
